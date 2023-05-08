@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#192330 ;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 436vh;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-size: 2.8em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 13vh;
+    background-color: #141d26;
+    z-index: 1;
+  }
+  
+  ul {
+  
+    top: 2vh;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    left: 25.8vw;
+    width: fit-content;
+  }
+  
+  li a {
+    margin-block: 2.09vh;
+    margin-right: 5.04vw;
+    position: relative;
+    color: white;
+    padding: 11px 17px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 200px;
+    display: inline-block;
+    font-family: helvetica;
+    background-color:    #9c1d4b;
+    border-radius:20px;
+    box-sizing: border-box;
+    font-weight: bold;  
+    
+  }
+
+  .logo{
+    position: absolute;
+    top: 21px;
+    left: 50px;
+    height: 60%;
+    width: 18%;
+    }
+
+    .gif{
+      position: fixed;
+      top: 1vh;
+      left: 90vw;
+      border-radius:20px;
+      box-sizing: border-box;
+      height: 10%;
+      width: 5%;
+    }
+
+    .main {
+      position: fixed;
+      top: 40vh;
+      left: 7vw;
+      width: 35%;
+      min-height: 11vh;
+      display: flex;
+      align-items: center;
+      color: #fff;
+    }
+
+    /*
+    .background {
+      position: initial ;
+      width: 80%;
+      height: 60%;
+    } */
+  
+  button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #9c1d4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .banana_split {
+    position: absolute;
+    top: 29.3vh;
+    left: 8vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .ink_black {
+    position: absolute;
+    top: 29.3vh;
+    left: 38.1vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .roselios {
+    position: absolute;
+    top: 29.3vh;
+    left: 68vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .tangerine {
+    position: absolute;
+    top: 80vh;
+    left: 8vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .tealios {
+    position: absolute;
+    top: 80vh;
+    left: 38.1vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .kalihcream {
+    position: absolute;
+    top: 80vh;
+    left: 68vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .gloriouspanda {
+    position: absolute;
+    top: 29.3vh;
+    left: 8vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .holypanda {
+    position: absolute;
+    top: 29.3vh;
+    left: 38.1vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .zealios {
+    position: absolute;
+    top: 29.3vh;
+    left: 68vw;
+    height: 43%;
+    width: 23%;
+  }
+
+  .boxjade {
+    position: absolute;
+    top: 29.3vh;
+    left: 8vw;
+    height: 41%;
+    width: 21%;
+  }
+
+  .boxpink {
+    position: absolute;
+    top: 29.3vh;
+    left: 38.1vw;
+    height: 41%;
+    width: 21%;
+  }
+
+  .sherbet {
+    position: absolute;
+    top: 29.3vh;
+    left: 68vw;
+    height: 43%;
+    width: 23%;
+  }
+
+
+  
+  button:hover {
+    background-color: #811b40;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
